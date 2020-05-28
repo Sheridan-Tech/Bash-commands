@@ -10,17 +10,33 @@ ___
 | Command | Description |
 | ------- | ----------- |
 | `sudo killall <executable name>` | kill application |
-### stop
+| `sudo pkill <executable name>` | kill application |
+| `sudo kill $(pidof <executable name>)` | kill application |
+
+### applications
 
 | Command | Description |
 | ------- | ----------- |
 | `psaux` |  |
 | `bg` |  |
 | `fg` |  |
-| `Ctrl-R` |  |
 | `cd` |  |
 | `alias` |  |
 | `htop` |  |
 | `dd` |  |
 | `xxd` |  |
 | `find . -name <filename>` |  |
+| `rm -rf <relative path to filename>` |  |
+| `grep` |  |
+
+
+
+### Shortcuts
+
+| Command | Description |
+| ------- | ----------- |
+| `Ctrl-W` |  |
+| `Ctrl-U` |  |
+| `Ctrl-C` |  |
+| `Ctrl-X` |  |
+| `Ctrl-R` |  |
