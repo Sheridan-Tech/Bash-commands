@@ -28,6 +28,10 @@ ___
 | `find . -name <filename>` |  |
 | `rm -rf <relative path to filename>` |  |
 | `grep` |  |
+| `cut -d ":" -f1` | `<executable_path> \| grep "TextEndingWith:" \| cut -d ":" -f1` |
+| `tee` |   `<executable_path> 2>&1 \| tee ~/outputfile.txt` |
+
+
 
 
 
@@ -37,6 +41,16 @@ ___
 | ------- | ----------- |
 | `Ctrl-W` |  |
 | `Ctrl-U` |  |
+| `Ctrl-C` |  |
+| `Ctrl-X` |  |
+| `Ctrl-R` |  |
+
+
+### Misc
+
+| Command | Description |
+| ------- | ----------- |
+| `. or source` |  |
 | `Ctrl-C` |  |
 | `Ctrl-X` |  |
 | `Ctrl-R` |  |
