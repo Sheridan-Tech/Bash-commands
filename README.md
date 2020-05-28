@@ -31,6 +31,7 @@ ___
 | `cut -d ":" -f1` | `<executable_path> \| grep "TextEndingWith:" \| cut -d ":" -f1` |
 | `tee` |   `<executable_path> 2>&1 \| tee ~/outputfile.txt` |
 | `history -d <command_number_listed_in_history>` | This is useful when you ran a command with a plaintext password as a parameter. |
+| `$?` | Result=$?|
 
 
 
