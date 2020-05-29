@@ -33,7 +33,7 @@ ___
 | `history -d <command_number_listed_in_history>` | This is useful when you ran a command with a plaintext password as a parameter. |
 | `$?` | Result=$?|
 
-
+| `unbuffer <executable command> \| & tee ~/build.txt` | |
 
 
 
