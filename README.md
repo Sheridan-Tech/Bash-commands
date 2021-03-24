@@ -1,8 +1,6 @@
 # Bash-commands
 _A list of some of my favorite Bash commands and tricks_
 
-
-
 ___
 
 ### stop
@@ -20,11 +18,12 @@ ___
 | `psaux` |  |
 | `bg` |  |
 | `fg` |  |
-| `cd` |  |
+| `cd -` | Return to previous directory |
 | `alias` |  |
 | `htop` |  |
 | `dd` |  |
 | `xxd` |  |
+| `hexdump` |  |
 | `find . -name <filename>` |  |
 | `rm -rf <relative path to filename>` |  |
 | `grep` |  |
@@ -32,10 +31,9 @@ ___
 | `tee` |   `<executable_path> 2>&1 \| tee ~/outputfile.txt` |
 | `history -d <command_number_listed_in_history>` | This is useful when you ran a command with a plaintext password as a parameter. |
 | `$?` | Result=$?|
-| `less -R  ~/build.txt` ||
-
+| `less -R  ~/build.txt` |  |
 | `unbuffer <executable command> \| & tee ~/build.txt` | |
-
+| `tree` | |
 
 
 ### Shortcuts
@@ -44,6 +42,7 @@ ___
 | ------- | ----------- |
 | `Ctrl-W` |  |
 | `Ctrl-U` |  |
+| `Ctrl-Y` |  |
 | `Ctrl-C` |  |
 | `Ctrl-X` |  |
 | `Ctrl-R` |  |
@@ -54,6 +53,3 @@ ___
 | Command | Description |
 | ------- | ----------- |
 | `. or source` |  |
-| `Ctrl-C` |  |
-| `Ctrl-X` |  |
-| `Ctrl-R` |  |
