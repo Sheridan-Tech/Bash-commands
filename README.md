@@ -34,6 +34,8 @@ ___
 | `less -R  ~/build.txt` |  |
 | `unbuffer <executable command> \| & tee ~/build.txt` | |
 | `tree` | |
+| `ln -s source_file_or_dir symbolic_link` | Create a symbolic link to a file or directory |
+| `readlink -f symbolic_link` | Print full path to symbolic link |
 
 
 ### Shortcuts
