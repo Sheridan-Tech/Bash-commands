@@ -15,9 +15,6 @@ ___
 
 | Command | Description |
 | ------- | ----------- |
-| `psaux` |  |
-| `bg` |  |
-| `fg` |  |
 | `cd -` | Return to previous directory |
 | `alias` |  |
 | `htop` |  |
@@ -38,17 +35,29 @@ ___
 | `readlink -f symbolic_link` | Print full path to symbolic link |
 
 
-### Shortcuts
+### GNU Readline Shortcuts
 
 | Command | Description |
 | ------- | ----------- |
-| `Ctrl-W` |  |
-| `Ctrl-U` |  |
-| `Ctrl-Y` |  |
-| `Ctrl-C` |  |
-| `Ctrl-X` |  |
-| `Ctrl-R` |  |
+| `Ctrl-A` | Moves the cursor to the line start equivalent to HOME |
 
+
+| `Ctrl-W` | Clears the word before the cursor and copies it into the clipboard |
+| `Ctrl-U` | Clears the line content before the cursor and copies it into the clipboard |
+| `Alt-D` | Clears the line content after the cursor and copies it into the clipboard |
+| `Ctrl-Y` | (yank) adds the clipboard content from the cursor position |
+| `Ctrl-X` |  |
+| `Ctrl-R` | Reverse search through command history, continued presses move up or those altered by SHIFT move down through the history |
+
+### Process control
+
+| Command | Description |
+| ------- | ----------- |
+| `psaux` |  |
+| `bg` |  |
+| `fg` |  |
+| `Ctrl-C` | Sends the signal SIGINT to the current task, which aborts and closes it |
+| `Ctrl-Z` | Sends the signal SIGTSTP to the current task, which suspends it. To execute it in background one can enter bg. To bring it back from background or suspension fg ['process name or job id'] (foreground) can be issued. |
 
 ### Misc
 
