@@ -17,7 +17,7 @@ ___
 | ------- | ----------- |
 | `cd -` | Return to previous directory |
 | `sudo dpkg -i <package_name.deb` | Install a deb package on debian-based systems |
-| `sudo dpkg -s <package_name` | Query installed package on debian-based systems |
+| `sudo dpkg -S <package_name` | Query installed package on debian-based systems |
 | `sudo dpkg -r <package_name` | Remove installed package on debian-based systems |
 | `alias` |  |
 | `htop` |  |
