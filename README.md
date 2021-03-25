@@ -27,7 +27,6 @@ ___
 | `cut -d ":" -f1` | `<executable_path> \| grep "TextEndingWith:" \| cut -d ":" -f1` |
 | `tee` |   `<executable_path> 2>&1 \| tee ~/outputfile.txt` |
 | `history -d <command_number_listed_in_history>` | This is useful when you ran a command with a plaintext password as a parameter. |
-| `$?` | Result=$?|
 | `less -R  ~/build.txt` |  |
 | `unbuffer <executable command> \| & tee ~/build.txt` | |
 | `tree` | |
@@ -35,6 +34,16 @@ ___
 | `readlink -f symbolic_link` | Print full path to symbolic link |
 
 
+
+| `$?` | Equal to the return of the previously executed command, result=$? is useful in bash scripting|
+| `!!` | "BangBang" rerun the previous command |
+| `!string` |  Print the last command beginning with string |
+
+     
+
+
+
+https://ss64.com/bash/bang.html
 ### GNU Readline Shortcuts
 
 | Command | Description |
