@@ -32,9 +32,6 @@ ___
 | `tree` | |
 | `ln -s source_file_or_dir symbolic_link` | Create a symbolic link to a file or directory |
 | `readlink -f symbolic_link` | Print full path to symbolic link |
-
-
-
 | `$?` | Equal to the return of the previously executed command, result=$? is useful in bash scripting|
 | `!!` | "BangBang" rerun the previous command |
 | `!string` |  Print the last command beginning with string |
@@ -49,8 +46,6 @@ https://ss64.com/bash/bang.html
 | Command | Description |
 | ------- | ----------- |
 | `Ctrl-A` | Moves the cursor to the line start equivalent to HOME |
-
-
 | `Ctrl-W` | Clears the word before the cursor and copies it into the clipboard |
 | `Ctrl-U` | Clears the line content before the cursor and copies it into the clipboard |
 | `Alt-D` | Clears the line content after the cursor and copies it into the clipboard |
