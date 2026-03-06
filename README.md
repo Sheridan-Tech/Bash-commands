@@ -674,22 +674,20 @@ jq -r '.items[] | [.id,.name,.status] | @csv' data.json > out.csv
 | `!!` | "BangBang" rerun the previous command |
 | `!string` |  Print the last command beginning with string |
 
-     
-
-
-
 https://ss64.com/bash/bang.html
 ### GNU Readline Shortcuts
 
 | Command | Description |
 | ------- | ----------- |
 | `Ctrl-A` | Moves the cursor to the line start equivalent to HOME |
-| `Ctrl-W` | Clears the word before the cursor and copies it into the clipboard |
-| `Ctrl-U` | Clears the line content before the cursor and copies it into the clipboard |
-| `Alt-D` | Clears the line content after the cursor and copies it into the clipboard |
-| `Ctrl-Y` | (yank) adds the clipboard content from the cursor position |
-| `Ctrl-X` |  |
+| `Ctrl-W` | Cuts the word before the cursor |
+| `Ctrl-U` | Cuts the line content before the cursor (cuts to beginning of line) |
+| `Alt-D` | Cuts the line content after the cursor (cuts to end of line) |
+| `Ctrl-Y` | (yank or paste) Pastes the last thing to be cut |
+| `Ctrl-K` | Cuts everything after the cursor |
 | `Ctrl-R` | Reverse search through command history, continued presses move up or those altered by SHIFT move down through the history |
+| `Ctrl-_` | Undo |
+
 
 ### Process control
 
